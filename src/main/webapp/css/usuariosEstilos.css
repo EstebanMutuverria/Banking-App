@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding:0 !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f7fa;
     color: #333;
@@ -14,8 +14,8 @@ html, body {
 .main-container {
     flex: 1;
     max-width: 1200px;
-    margin: 0 auto;
     padding: 20px;
+    margin: 80px auto 20px; /* 60px navbar + 20px espacio */
 }
 
 .welcome-card {
@@ -37,6 +37,8 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 th, td {

@@ -7,6 +7,10 @@
     align-items: center;
     padding: 0;
     height: 60px;
+    position:sticky;
+    top:0;
+    z-index:9999 !important;
+    flex-shrink: 0; /* No se encoje */
 }
 
 .mi-navbar ul {
